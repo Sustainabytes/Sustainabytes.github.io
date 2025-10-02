@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  background: #93C4A6;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+body, h1, h4, p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background: #93C4A6;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 83px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+.headingLeft {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  padding-top: 10px;
+  position: absolute;
+  padding-left: 30px;
+}
+
+.headingRight {
+  float: right;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 25px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.active {
+    color: #EBCAE8;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration-line: underline;
+}
+
+.apply:hover {
+    text-shadow: none;
+    box-shadow: 5px 5px 5px #81ad7b;
+}
+
+.container2 {
+  height: 650px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: right;
+}
+
+.divider {
+  margin-bottom: 180px;
+  margin-right: 130px;
+  z-index: 2;
+}
+
+.container2 div h4 {
+  color: #000000;
+  font-size: 30px;
+  width: 540px;
+  margin: 10px 0 10px 0;
+}
+
+.container2 div h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 550; 
+  font-size: 60px;
+  width: 540px;
+  margin: 0 0 20px 0;
+  line-height: 1;
+}
+
+.container2 span{
+  font-weight: 900; 
+}
+
+.container2 div p {
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 540px;
+  margin: 10px 0 40px 0;
+}
+
+.container2 .leftImg img {
+  position: absolute;
+  height: 730px;
+  width: 980px; 
+  left: 0px;
+  top: 120px;
+}
+
+.container2 .right {
+  position: absolute;
+  height: 400px;
+  width: 250px; 
+  top: 450px;
+  right: 0px;
+}
+
+.container2 .rightS {
+  position: absolute;
+  height: 350px;
+  width: 450px; 
+  top: 380px;
+  right: 0px;
+}
+
+.container3 { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #F4F7EC;
+  height: 780px;
+
+  background-image: url('assets/leafDecor.png');
+  background-repeat: no-repeat; 
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.container3 .divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
+.container3 h1 {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.container3 p {
+  color:#000000;
+  font-weight: 400;
+  font-size: 30px;
+  width: 850px;
+}
+
+.container3 p a{
+  font-weight: 600;
+  color: #93C4A6;
+}
+
+
+.container4, .container6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  gap: 60px;
+}
+
+.container4 {
+  padding: 80px 0 80px 80px;
+  text-align: left;
+  max-height: 450px;
+}
+
+.container4 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+}
+
+.container4 img {
+  width: 780px;
+  height: 610px;
+}
+
+.container4 .scribble {
+  height: 700px;
+  position: absolute;
+  right: 0px;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #F4F7EC;
+  height: 1000px;
+  font-size: 24px;
+  color:#568366;
+
+  background-image: url('assets/circleBackdrop.png');
+  background-repeat: no-repeat; 
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.container5 .divide {
+  max-width: 800px;
+}
+
+.container5 h1 {
+  margin: 10px 0 10px 0;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.container5 p {
+  margin: 0 0 50px 0;
+  font-size: 25px;
+  color: #000000;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 0 0 20px 0;
+}
+
+.images img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.container6 {
+  padding: 80px 80px 200px 10px;
+  flex-direction: row-reverse;
+  text-align: right;
+  background-color: #F4F7EC;
+  height:650px;
+}
+
+.container6 div{
+  max-width: 500px;
+}
+
+.container4 h1, .container6 h1 {
+  font-size: 3.8rem;
+  margin: 0 0 10px 0;
+  color: #ffffff;
+}
+
+.container4 p, .container6 p {
+  font-size: 1.5rem;
+  color: #000000;
+  margin: 0 0 20px 0;
+  margin-top: 15px;
+}
+
+.container6 img {
+  position: absolute;
+  width: 900px;
+  height: 750px;
+  left: 0px;
+  z-index: 1;
+}
+
+.container6 .blobs {
+  position: absolute;
+  width: 900px;
+  height: 750px;
+  left: 0px;
+}
+
+.section-button {
+  display: inline-block;
+  transform-origin: center;
+  background-color: #EBCAE8;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 12px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  white-space: nowrap;     
+  width: fit-content; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-button:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.section-button.outline {
+  background-color: #EBCAE8;
+  color: black;
+  border: 2px solid white;
+}  
+
+footer {
+  background: #F4F7EC;
+  text-align: center;
+  padding: 125px 80px 80px 80px;
+
+  background-image: url('assets/circles.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  margin: 10px 0 0 0;
+}
